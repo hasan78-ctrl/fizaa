@@ -84,7 +84,7 @@
     const loader = new THREE.GLTFLoader();
     loader.load('bouquet.glb', function(gltf) {
       const model = gltf.scene;
-      model.scale.set(40, 40, 200);       // Big bouquet
+      model.scale.set(40, 40, 20);       // Big bouquet
       model.position.set(0, 0, 0);      // Lowered to be fully visible
       scene.add(model);
     }, undefined, function(error) {
